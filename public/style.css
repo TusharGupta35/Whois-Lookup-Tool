@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(117, 179, 217);
+    font-family:'Roboto';
+    text-align: center;
+}
+.heading
+{
+  font-size: xx-large;
+  color: rgb(19, 19, 37);
+  border: 1px solid black;
+  text-align: center;
+  margin: 30px;
+  background-color: rgb(171, 212, 95);
+}
+
+button{
+  margin-top: 10px;
+  font-size: larger;
+}
