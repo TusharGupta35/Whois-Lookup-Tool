@@ -1,19 +1,35 @@
-body{
-    background-color:rgb(117, 179, 217);
-    font-family:'Roboto';
-    text-align: center;
-}
-.heading
-{
-  font-size: xx-large;
-  color: rgb(19, 19, 37);
-  border: 1px solid black;
+body {
+  font-family: 'Roboto';
   text-align: center;
-  margin: 30px;
-  background-color: rgb(171, 212, 95);
 }
 
-button{
+.heading {
+  font-size: xx-large;
+  text-align: center;
+  margin: 30px;
+}
+
+button {
   margin-top: 10px;
   font-size: larger;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.form .form-group {
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form button {
+  width: 10vw;
+  margin: 15px;
+  background-color: rgb(83, 83, 83);
+  color: white;
 }
